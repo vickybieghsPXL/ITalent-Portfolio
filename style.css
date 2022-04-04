@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    /*   border: 1px solid orange; */
+    display: block;
+}
+
+[class*=col-] {
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*div {
+border: 1px solid grey;
+}*/
+
+/* Utility Classes */
+
+.padded   { padding: 10% 5%;}
+.padded-1 { padding: 1rem;}
+.padded-05 { padding: 0.5rem;}
+
+.bg-dark { background-color: #292b36 }
+.bg-light {background-color: #d6cfca; }
+.bg-biege {background-color: #cbb7ae; }
+.bg-blush {background-color: #a67f8c; }
+.bg-indigo {background-color: #706677; }
+.bg-purple {background-color: #565264; }
+
+.light-text { color: white; }
+.center {text-align: center;}
+.right {text-align: right;}
+
+/* Universal Styles */
+h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+    margin-bottom: 0.8rem;
+}
+h2 {
+    font-size:2rem;
+    font-weight:300;
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+}
+
+a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:inherit;
+}
+
+.subtle {
+    opacity:0.6;
+}
+
+.bg-image {
+    background-color: lightblue;
+    background-image: url('https://source.unsplash.com/tvi3oh8RdTQ');
+    background-size: cover;
+    background-position:center;
+    border-radius:5px;
+    padding-bottom: 70%;
+}
+.bg-sunrise {
+    background-image:url('https://source.unsplash.com/ZcNP0ZFe62g');
+}
+.bg-dawn {
+    background-image:url('https://source.unsplash.com/YKHIPIw_k3U');
+    background-position:top;
+}
+.bg-dusk {
+    background-image:url('https://source.unsplash.com//oQ-Dw_2SMUM');
+}
+.bg-twilight {
+    background-image:url('https://source.unsplash.com/trvELSvNZoY');
+}
+.bg-galaxy {
+    background-image:url('https://source.unsplash.com/GQSNmxmlgnQ');
+}
+/* Card Styles */
+.card {
+    margin:1rem;
+    margin-top:1.5rem;
+    color: white;
+    border-radius:10px;
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,.2),0 10px 10px -5px rgba(0,0,0,.2);
+}
+
+.card:hover {
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,.6),0 10px 10px -5px rgba(0,0,0,.6);
+
+}
+
+.card h3 {
+    font-size:1.8rem;
+    font-weight:400;
+}
+
+.card span{
+    float:right;
+}
+
+
+.horizontal-scroll{
+    overflow-x:auto;
+    flex-wrap:nowrap;
+    padding-bottom:5%;
+}
