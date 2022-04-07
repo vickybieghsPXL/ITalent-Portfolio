@@ -5,29 +5,65 @@
     <title>ITalent Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="text_animation.css">
+
 </head>
 <body>
 <section class="bg-dark padded light-text">
-    <h2 class="center">Italent Portfolio</h2>
     <div class="grid horizontal-scroll">
         <!--- Card 1 --->
-        <div class="col-3 card bg-purple">
-            <div class=" padded-05">
-                <div class="bg-image bg-me"></div>
+        <div class="card">
+            <div class="padded-05">
+                <div class="contentcard">
+                    <p class="intro">Hello there! My name is </p>
+                    <div class="content">
+                        <div class="content__container">
+                            <ul class="content__container__list">
+                                <li class="content__container__list__item">Vippy</li>
+                                <li class="content__container__list__item">Vicky Bieghs</li>
+                                <li class="content__container__list__item">Vippy</li>
+                                <li class="content__container__list__item">Vicky Bieghs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br>
+
+                    <p class="secondary_content">I'm a graduate in Applied Informatics at PXL University College in Hasselt</p>
+                    <p class="secondary_content">with a subtrack in software management.</p>
+                     <br>
+                    <p class="secondary_content">I have been using computers for as long as I can remember, either to play games or design things.</p>
+                    <br>
+                    <p class="secondary_content">During my studies at PXL I found many new interests, such as <b>Cybersecurity!</b></p>
+                    <p class="secondary_content">Most importantly is my new passion for <b>projectmanagement</b>, PXL has given me many opportunities to lead and work on exciting projects.</p>
+
+
+                </div>
                 <div class="padded">
                     <h3>About Me</h3>
-                    <a href="https://www.linkedin.com/in/vicky-bieghs-5058161a1/" class="subtle">LinkedIn.com<span>&#x279C;</span></a>
+                    <a href="https://www.linkedin.com/in/vicky-bieghs-5058161a1/" target="_blank" rel="noopener noreferrer" class="subtle">LinkedIn.com<span>&#x279C;</span></a>
                 </div>
             </div>
         </div>
 
         <!--- Card 2 --->
-        <div class="col-3 card bg-indigo">
-            <div class=" padded-05">
-                <div class="bg-image bg-twilight"></div>
+        <div class="card">
+            <div class="padded-05">
+                <div class="contentcard">
+                    <img src="csc-post-challenge.png" alt="csc logo">
+                    <p class="textwithphoto">The national cybersecurity challenge gives all Belgian students a chance to show off their skills in various cybersecurity-related challenges.</p>
+                    <br>
+                    <p1>I have participated in this event for <b>3 years</b> in a row now</p1>
+                    <br>
+                    <br>
+                    <p1>In 2020 our team placed in <b>22nd place.</b></p1>
+                    <br>
+                    <p1>In 2021 our team made it to the <b>13th position</b>, missing the finals by just 10 points.</p1>
+
+
+                </div>
                 <div class="padded">
-                    <h3>Seminar 1</h3>
-                    <a href="https://dribbble.com/" class="subtle">No Link<span>&#x279C;</span></a>
+                    <h3>Cybersecurity 2020</h3>
+                    <a href="https://www.cybersecuritychallenge.be/" target="_blank" rel="noopener noreferrer" class="subtle">Cybersecuritychallenge.be<span>&#x279C;</span></a>
                 </div>
             </div>
         </div>
@@ -35,10 +71,18 @@
         <!--- Card 3 --->
         <div class="col-3 card bg-blush">
             <div class=" padded-05">
-                <div class="bg-image bg-dusk "></div>
+                <div class="contentcard">
+                    <img class="photoval" src="Valencia.jpg" alt="valencia photo">
+                    <p class="textwithphoto">In 2021 I went to Valencia, Spain with a bunch of other students.</p>
+                    <br>
+                    <p1>We learned to use the <b>MIT App Inventor 2</b> to make mobile android applications.</p1>
+                    <br>
+                    <br>
+                    <p1>Besides the course, I made stronger connections with my friends and visited many popular places in Valencia!</p1>
+                </div>
                 <div class="padded">
-                    <h3>Seminar 2</h3>
-                    <a href="https://dribbble.com/" class="subtle">No Link<span>&#x279C;</span></a>
+                    <h3>BusIT in Valencia</h3>
+                    <a href="http://iro-etsiamn.webs.upv.es/wp-content/uploads/2020/12/2021-07-04-valencia-mobile-apps-for-android.pdf" target="_blank" rel="noopener noreferrer" class="subtle">UPV Flyer<span>&#x279C;</span></a>
                 </div>
             </div>
         </div>
@@ -46,10 +90,18 @@
         <!--- Card 4 --->
         <div class="col-3 card bg-biege">
             <div class=" padded-05">
-                <div class="bg-image bg-dawn"></div>
+                <div class="contentcard">
+                    <img class="photoval" src="nahamcon.png" alt="valencia photo">
+                    <p class="textwithphoto">Because our team performed so well in the CSC challenges, we decided to try out an <b>international CTF<b>, Nahamcon</p>
+                    <br>
+                    <p1>We placed <b>27th</b> out of <b>6491 players</b> all over the world!</p1>
+                    <br>
+                    <br>
+                    <p1>This amazing performance was all due to the difficult challenges we learned to master in the CSC challenges.</p1>
+                </div>
                 <div class="padded">
-                    <h3>Seminar 3</h3>
-                    <a href="https://dribbble.com/" class="subtle">No Link<span>&#x279C;</span></a>
+                    <h3>NahamCon 2021</h3>
+                    <a href="https://www.nahamcon.com/" target="_blank" rel="noopener noreferrer" class="subtle">Nahamcon.com<span>&#x279C;</span></a>
                 </div>
             </div>
         </div>
@@ -58,10 +110,10 @@
         <!--- Card 5 --->
         <div class="col-3 card bg-light">
             <div class=" padded-05">
-                <div class="bg-image bg-sunrise"></div>
+                <div class="contentcard"></div>
                 <div class="padded">
                     <h3>Seminar 4</h3>
-                    <a href="https://dribbble.com/" class="subtle">No Link<span>&#x279C;</span></a>
+                    <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer" class="subtle">No Link<span>&#x279C;</span></a>
                 </div>
             </div>
         </div>
