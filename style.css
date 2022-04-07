@@ -13,7 +13,10 @@ img {
 [class*=col-] {
     padding: 0;
 }
+::-webkit-scrollbar {
+    display: none;
 
+}
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
