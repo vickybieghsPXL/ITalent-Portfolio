@@ -12,7 +12,9 @@ html,body{
     overflow-x: auto;
 
 }
-
+::-webkit-scrollbar {
+    display: none;
+}
 img {
     max-width: 100%;
     /*   border: 1px solid orange; */
