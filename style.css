@@ -34,9 +34,10 @@ body {
     background: linear-gradient(-45deg, #7b3ba4, #5b33a2, #1c7a9d, #1ca485);
     background-size: 400% 400%;
     animation: gradient 20s ease infinite;
-    height: 100vh;
+    height: 100%;
     margin: 0;
-    overflow: hidden
+    overflow-y: hidden;
+
 }
 
 /*div {
