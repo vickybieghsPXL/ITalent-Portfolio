@@ -3,7 +3,17 @@
     margin:0;
     box-sizing: border-box;
 }
-
+html,body{
+    margin:0;
+    height: 100%;
+    max-width: 100%;
+    position: center;
+    overflow-y: hidden;
+    overflow-x: scroll ;
+}
+::-webkit-scrollbar {
+    display: none;
+}
 img {
     max-width: 100%;
     /*   border: 1px solid orange; */
@@ -12,10 +22,6 @@ img {
 
 [class*=col-] {
     padding: 0;
-}
-::-webkit-scrollbar {
-    display: none;
-
 }
 @keyframes gradient {
     0% {
@@ -34,9 +40,11 @@ body {
     background: linear-gradient(-45deg, #7b3ba4, #5b33a2, #1c7a9d, #1ca485);
     background-size: 400% 400%;
     animation: gradient 20s ease infinite;
-    height: 100vh;
+    height: 100%;
     margin: 0;
-    overflow: hidden
+    overflow-y: hidden;
+    overflow-x: scroll;
+
 }
 
 /*div {
@@ -74,6 +82,7 @@ p{
     text-align: center;
     left: 0;
     height: fit-content;
+    width: fit-content;
 }
 p1{
 
@@ -96,7 +105,6 @@ p1{
     font-size: 15px;
     height: 25rem;
     width: fit-content;
-    min-width: 15rem;
     color: #ecf0f1;
     font-weight: 600;
     text-align: center;
@@ -161,14 +169,12 @@ a:hover{
 }
 
 
-.horizontal-scroll{
+.horizontal-scroll {
 
-    overflow-x:scroll;
-    overflow-y: hidden;
-    flex-wrap:nowrap;
-    padding-bottom:2%;
+    flex-wrap: nowrap;
+    padding-bottom: 2%;
+    margin: 0;
 }
-
 .photoval{
     width: 19.5rem;
 }
