@@ -9,11 +9,10 @@ html,body{
     max-width: 100%;
     position: center;
     overflow-y: hidden;
-    overflow-x: scroll ;
+    overflow-x: auto;
+
 }
-::-webkit-scrollbar {
-    display: none;
-}
+
 img {
     max-width: 100%;
     /*   border: 1px solid orange; */
@@ -43,7 +42,8 @@ body {
     height: 100%;
     margin: 0;
     overflow-y: hidden;
-    overflow-x: scroll;
+    overflow-x: auto;
+
 
 }
 
@@ -54,6 +54,8 @@ border: 1px solid grey;
 /* Utility Classes */
 
 .padded   { padding: 5%;
+    overflow-x: auto;
+
 }
 .padded-05 { padding: .5rem;
 
@@ -175,6 +177,8 @@ a:hover{
     flex-wrap: nowrap;
     padding-bottom: 2%;
     margin: 0;
+    overflow-y: hidden;
+    overflow-x: auto;
 }
 .photoval{
     width: 22rem;
