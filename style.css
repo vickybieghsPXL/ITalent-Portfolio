@@ -169,14 +169,12 @@ a:hover{
 }
 
 
-.horizontal-scroll{
-    
-    flex-wrap:nowrap;
-    padding-bottom:2%;
-    margin: 0;
-    max-height: fit-content;
-}
+.horizontal-scroll {
 
+    flex-wrap: nowrap;
+    padding-bottom: 2%;
+    margin: 0;
+}
 .photoval{
     width: 19.5rem;
 }
