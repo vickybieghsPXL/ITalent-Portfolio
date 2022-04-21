@@ -143,6 +143,7 @@ a:hover{
 /* Card Styles */
 .card {
     width: fit-content;
+    height: fit-content;
     background: rgba( 255, 255, 255, 0.05 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 3.5px );
@@ -176,5 +177,6 @@ a:hover{
     margin: 0;
 }
 .photoval{
-    width: 19.5rem;
+    width: 22rem;
+    height: auto;
 }
