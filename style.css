@@ -11,9 +11,7 @@ html,body{
     overflow-y: hidden;
     overflow-x: scroll ;
 }
-::-webkit-scrollbar {
-    display: none;
-}
+
 img {
     max-width: 100%;
     /*   border: 1px solid orange; */
@@ -170,7 +168,7 @@ a:hover{
 
 
 .horizontal-scroll {
-
+    height: fit-content;
     flex-wrap: nowrap;
     padding-bottom: 2%;
     margin: 0;
